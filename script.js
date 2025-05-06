@@ -1,4 +1,4 @@
- let arr=[];
+let arr=[];
 function createUser(){
 
     const inputField=document.querySelector("#name").value;
@@ -69,7 +69,7 @@ function showValues(users) {
           <button onclick="deleteValue(${index})">Delete</button>
        </li><br>`
     )
-    .join("");
+    // .join("");
 }
 
 function editHandler(index) {
